@@ -1,0 +1,59 @@
+{
+  "R": 499.93333333333334,
+  "msgs_per_truck_per_sim_sec": 0.08499999999999999,
+  "peak_trucks": 2500,
+  "steps": [
+    {
+      "target": 200,
+      "produced_per_s": 199.93333333333334,
+      "delivered_per_s": 199.93333333333334,
+      "errors": 0,
+      "queue_full": 0,
+      "p50_s": 0.1125765,
+      "p95_s": 0.140933,
+      "passed": true
+    },
+    {
+      "target": 500,
+      "produced_per_s": 499.93333333333334,
+      "delivered_per_s": 499.93333333333334,
+      "errors": 0,
+      "queue_full": 0,
+      "p50_s": 0.119219,
+      "p95_s": 0.642921,
+      "passed": true
+    },
+    {
+      "target": 1000,
+      "produced_per_s": 999.9333333333333,
+      "delivered_per_s": 976.0333333333333,
+      "errors": 0,
+      "queue_full": 0,
+      "p50_s": 1.829035,
+      "p95_s": 5.594578,
+      "passed": false
+    },
+    {
+      "target": 2000,
+      "produced_per_s": 1999.9,
+      "delivered_per_s": 957.3,
+      "errors": 0,
+      "queue_full": 0,
+      "p50_s": 2.730652,
+      "p95_s": 15.344024,
+      "passed": false
+    },
+    {
+      "target": 3000,
+      "produced_per_s": 2999.9,
+      "delivered_per_s": 1190.7,
+      "errors": 0,
+      "queue_full": 0,
+      "p50_s": 13.190551,
+      "p95_s": 46.355737,
+      "passed": false
+    }
+  ],
+  "procs": 2,
+  "A_max": 1.1763137254901963
+}
